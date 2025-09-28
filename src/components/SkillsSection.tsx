@@ -20,8 +20,8 @@ const SkillsSection = () => {
       skills: [
         { name: "BigQuery", level: 90 },
         { name: "Snowflake", level: 85 },
-        { name: "PostgreSQL", level: 88 },
-        { name: "Supabase", level: 75 }
+        { name: "PostgreSQL", level: 85 },
+        { name: "Supabase", level: 90 }
       ]
     },
     {
