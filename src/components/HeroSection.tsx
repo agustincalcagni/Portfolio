@@ -36,10 +36,6 @@ const HeroSection = () => {
                 Analista de Datos | Data Analyst
               </p>
               
-              <p className="text-lg text-slate-300 leading-relaxed max-w-lg">
-                Especializado en transformar datos complejos en insights accionables 
-                que impulsan decisiones estratégicas y generan valor empresarial.
-              </p>
             </div>
 
             {/* Contact Info */}
