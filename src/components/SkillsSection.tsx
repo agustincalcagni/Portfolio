@@ -18,10 +18,10 @@ const SkillsSection = () => {
       icon: <Database className="w-6 h-6" />,
       color: "bg-green-500",
       skills: [
-        { name: "BigQuery", level: 90 },
-        { name: "Snowflake", level: 85 },
-        { name: "PostgreSQL", level: 85 },
-        { name: "Supabase", level: 90 }
+        { name: "BigQuery", level: 75 },
+        { name: "Snowflake", level: 80 },
+        { name: "PostgreSQL", level: 90 },
+        { name: "Supabase", level: 95 }
       ]
     },
     {

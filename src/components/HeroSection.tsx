@@ -99,7 +99,7 @@ const HeroSection = () => {
             <div className="relative z-10">
               <div className="bg-gradient-to-br from-blue-500/20 to-purple-600/20 rounded-2xl p-8 backdrop-blur-sm border border-white/10">
                 <img 
-                  src="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  src="C:\Users\agust\OneDrive\Desktop\PROGRAMACIÓN\Portfolio\IMG_fondoAzul.png"
                   alt="Agustín Calcagni - Analista de Datos"
                   className="w-full h-96 object-cover rounded-xl shadow-2xl"
                 />
