@@ -6,11 +6,13 @@ import SkillsSection from './components/SkillsSection';
 import EducationSection from './components/EducationSection';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
+import { CarrouselSection } from './components/CarrouselSection';
 
 function App() {
   return (
     <div className="min-h-screen">
       <HeroSection />
+      <CarrouselSection />
       <Header />
       <main>
         <AboutSection />
