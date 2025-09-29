@@ -1,18 +1,27 @@
-
-import { Mail, MapPin, Linkedin, Github, Download, ArrowDown } from 'lucide-react';
+import {
+  Mail,
+  MapPin,
+  Linkedin,
+  Github,
+  Download,
+  ArrowDown,
+} from "lucide-react";
 
 const HeroSection = () => {
   return (
     <section className="relative min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 text-white overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
-        <div className="absolute inset-0" style={{
-          backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.1'%3E%3Ccircle cx='30' cy='30' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
-        }} />
+        <div
+          className="absolute inset-0"
+          style={{
+            backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.1'%3E%3Ccircle cx='30' cy='30' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
+          }}
+        />
       </div>
 
       <div className="relative max-w-6xl mx-auto px-6 py-20">
-        <div className="grid lg:grid-cols-2 gap-12 items-center min-h-[80vh]">
+        <div className="grid lg:grid-cols-2 gap-12 items-center min-h-[80vh] relative">
           {/* Personal Information */}
           <div className="space-y-8">
             <div className="space-y-4">
@@ -21,7 +30,6 @@ const HeroSection = () => {
                   👋 ¡Hola! Soy
                 </span>
               </div>
-              
               <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
                 <span className="bg-gradient-to-r from-white to-blue-200 bg-clip-text text-transparent">
                   Agustín
@@ -31,11 +39,9 @@ const HeroSection = () => {
                   Calcagni
                 </span>
               </h1>
-              
               <p className="text-xl lg:text-2xl text-blue-200 font-medium">
                 Analista de Datos | Data Analyst
               </p>
-              
             </div>
 
             {/* Contact Info */}
@@ -46,24 +52,24 @@ const HeroSection = () => {
                 </div>
                 <span>Concarán, San Luis, Argentina</span>
               </div>
-              
+
               <div className="flex items-center gap-3 text-slate-300">
                 <div className="bg-slate-700/50 p-2 rounded-lg">
                   <Mail className="w-5 h-5 text-blue-400" />
                 </div>
-                <a 
+                <a
                   href="mailto:agustincalcagni@gmail.com"
                   className="hover:text-white transition-colors"
                 >
                   agustincalcagni@gmail.com
                 </a>
               </div>
-              
+
               <div className="flex items-center gap-3 text-slate-300">
                 <div className="bg-slate-700/50 p-2 rounded-lg">
                   <Linkedin className="w-5 h-5 text-blue-400" />
                 </div>
-                <a 
+                <a
                   href="https://www.linkedin.com/in/agustincalcagni"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -80,9 +86,13 @@ const HeroSection = () => {
                 <Download className="w-5 h-5" />
                 Descargar CV
               </button>
-              
-              <button 
-                onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+
+              <button
+                onClick={() =>
+                  document
+                    .getElementById("contact")
+                    ?.scrollIntoView({ behavior: "smooth" })
+                }
                 className="border-2 border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-slate-900 px-8 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105"
               >
                 Contactar
@@ -90,31 +100,18 @@ const HeroSection = () => {
             </div>
 
             {/* Tech Stack Preview */}
-            
           </div>
-          
 
           {/* Profile Image */}
-          <div className="relative">
+          <div className="absolute top-0 right-0">
             <div className="relative z-10">
-              <div className="bg-gradient-to-br from-blue-500/20 to-purple-600/20 rounded-2xl p-8 backdrop-blur-sm border border-white/10">
-                <img 
-                  src="C:\Users\agust\OneDrive\Desktop\PROGRAMACIÓN\Portfolio\IMG_fondoAzul.png"
+              <div className="bg-gradient-to-br max-w-md from-blue-500/20 to-purple-600/20 rounded-2xl p-8 backdrop-blur-sm border border-white/10">
+                <img
+                  src="\assets\IMG_fondoAzul.png"
                   alt="Agustín Calcagni - Analista de Datos"
                   className="w-full h-96 object-cover rounded-xl shadow-2xl"
                 />
               </div>
-            </div>
-            
-            {/* Floating Elements */}
-            <div className="absolute -top-4 -right-4 bg-blue-500 text-white p-4 rounded-xl shadow-lg animate-pulse">
-              <div className="text-2xl font-bold">3+</div>
-              <div className="text-xs">Años de experiencia</div>
-            </div>
-            
-            <div className="absolute -bottom-4 -left-4 bg-green-500 text-white p-4 rounded-xl shadow-lg animate-pulse delay-1000">
-              <div className="text-2xl font-bold">50+</div>
-              <div className="text-xs">Proyectos completados</div>
             </div>
           </div>
         </div>
