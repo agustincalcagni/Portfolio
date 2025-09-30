@@ -12,7 +12,8 @@ const AboutSection = () => {
               Analista de Datos con experiencia en el ciclo completo del
               análisis, desde la investigación y limpieza de datos hasta la
               visualización y generación de reportes. Manejo de entornos SQL,
-              Python, R, BigQuery, Snowflake, Qlik Sense, Power BI y Tableau.
+              PostgreSQL, Python, BigQuery, Snowflake, Supabase, Qlik Sense,
+              Power BI y Tableau, entre otros.
             </p>
 
             <div className="grid gap-6">
